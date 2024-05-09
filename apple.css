@@ -1,0 +1,141 @@
+body{
+    background-color:  #2d2d2d;
+}
+.cat{
+    background-color: #2d2d2d;
+}
+/* .cat2{
+  background-color: blue;
+} */
+
+
+.textLarge{
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5em;
+    font-size: 2.0em;
+    font-weight: normal;
+    color: white;
+}
+
+.textSmall{
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 1.5em;
+    font-size: 15pt;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.lady{
+    background-color: #1D1D1D;
+}
+/* 
+.lady2{
+    background-color: yellow;
+} */
+
+.flower{
+    background-color: #0D0D0D;
+}
+
+/* .flower2{
+    background-color: aqua;
+} */
+.road{
+    background-color: #1D1D1D;
+}
+/* .road2{
+    background-color:yellowgreen
+} */
+.buddha{
+    background-color: #0D0D0D;
+}
+/* .buddha2{
+    background-color: darkmagenta;
+} */
+.water{
+   background-color:  #1D1D1D;
+}
+/* .water2{
+    background-color: salmon;
+} */
+.photso{
+    background-color: #0D0D0D;
+}
+.photso2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    
+
+}
+
+@media (max-width:992px) {
+    .sec2{
+          flex-direction: column-reverse;
+    }
+    .sec4{
+        flex-direction: column-reverse;
+    }
+    .sec6{
+        flex-direction: column-reverse;
+    }
+}
+.last{
+    background-color: white;
+}
+
+.dowloadimg{
+    display: flex;
+    justify-content: center;
+}
+.lastfooter{
+   background-color:  #2d2d2d;
+}
+.contactdt{
+    background-color:  #2d2d2d;
+}
+.signup{
+   color: white;
+}
+
+.getin{
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    text-decoration:none ;
+    font-weight: 500;
+}
+.forany{
+    color: #a0a0a0;
+}
+
+.dowdloadtext{
+
+    margin-top: 48px;
+}
+.legal{
+color: #ababab;
+font-family: -apple-system, 'BlinkMacSystemFont', Helvetica, Arial;
+font-size: 9px;
+font-weight: normal;
+margin-top: 24px;
+text-align: center;
+}
+.downimg{
+    margin-top: 51px;
+}
+
+.firstimg{
+   margin:10px;
+}
+
+/* .appStore img{
+    margin-left: 2%;
+} */
+.first-banner-img{
+    display: flex;
+    justify-content: center;
+}
